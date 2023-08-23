@@ -1,0 +1,221 @@
+
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.head{
+    height: 650px;
+    width: 100%;
+    background-image: url(header-background.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.head .head1{
+    position: absolute;
+    top: 250px;
+    left: 250px ;
+    width: 30%;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(32, 31, 31);
+    text-align: left;
+    
+}
+.head .head1 .button{
+    color: rgba(32, 31, 31 , 0.9);
+    border-radius: 50px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+.tow{
+height: 300px;
+position: relative;
+}
+.tow .text{
+    width: 70%;
+    text-align: left;
+    position: absolute;
+    left: 20%;
+    top: 80px;
+
+}
+.tow .text .pra{
+    margin-top: 20px;
+    line-height: 1.4em;
+}
+
+.pra p {
+    text-indent: 15px;
+}
+.pra p a {
+    text-decoration: none;
+}
+.three {
+    background-color: rgb(243, 192, 53);
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.three div{
+    position: absolute;
+    top: 25px;
+    left: 30%;
+    font-weight: bold;
+}
+
+
+
+
+
+.section {
+    margin-top: 40px;
+
+}
+
+.sidesec {
+    width: 75%;
+    margin: auto;
+}
+
+.section h2 {
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.section .sec1 {
+    float: left;
+    margin: 15px;
+    width: calc(100% / 3 - 30px);
+    position: relative;
+}
+
+
+.section .sec1 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: -25px;
+}
+
+.section .sec1 .pos {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: rgb(243, 192, 53);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.section .sec1 .para {
+    width: 300px;
+    height: 220px;
+    background-color: rgb(243, 192, 53);
+}
+
+.section .sec1 .para div {
+    margin: 20px 0 15px 15px;
+    color: black;
+}
+
+.section .sec1 .para div p {
+    color: white;
+    margin-top: 10px;
+}
+
+.section22 {
+    clear: both;
+    
+}
+.section22 h2{
+    text-align: center;
+    padding-top: 80px;
+    /* font-size: 40px; */
+}
+
+.section22 .div{
+    float: left;
+    width: calc(100% / 4 - 40px);
+    margin: 20px;
+    position: relative;
+}
+
+.section22 .div h1 {
+    font-size: 60px;
+    color: rgba(243, 192, 53, 0.8);
+}
+
+.section22 .div p {
+    opacity: 0.7;
+}
+
+.section22 .div span {
+    position: absolute;
+    top: 20px;
+    /* left: 5px; */
+    font-size: 20px;
+    
+}
+
+.section22 .div a {
+    color: rgb(243, 192, 53);
+    text-decoration: none;
+}
+
+
+
+.class {
+    width: 80%;
+    margin: auto;
+}
+
+.section3 {
+    clear: both;
+    height: 120px;
+    background-color:rgb(243, 192, 53) ;
+    color: white;
+}
+
+.section3 .mm{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    position: relative;
+}
+
+.section3 .mm p {
+    padding: 20px;
+}
+
+.section3 .mm a {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.footer p {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.6;
+}
